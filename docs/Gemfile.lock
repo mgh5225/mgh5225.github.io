@@ -257,8 +257,6 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  jekyll-feed
-  minima
   webrick
 
 BUNDLED WITH
