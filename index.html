@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+{% for section in site.data.sections %}
+<section id="{{section.id}}" class="resume">
+    <div class="container">
+
+        <div class="section-title">
+            <h2>{{section.name}}</h2>
+            <p>{{section.title}}</p>
+        </div>
+
+        {% include sections/{{section.id}}.html %}
+
+    </div>
+</section>
+{% endfor %}
