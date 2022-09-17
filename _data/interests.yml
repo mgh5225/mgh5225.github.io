@@ -1,0 +1,15 @@
+- title: Machine Learning, Deep Learning
+  icon: fa fa-brain
+  color: "#ffbb2c"
+
+- title: Computer Vision
+  icon: fa fa-eye
+  color: "#ff5828"
+
+- title: Natural Language Processing
+  icon: fa fa-book
+  color: "#11dbcf"
+
+- title: Robotics
+  icon: fa fa-robot
+  color: "#29cc61"
