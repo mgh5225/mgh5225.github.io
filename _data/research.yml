@@ -1,0 +1,7 @@
+- title: Bachelor's Project (Research Assistant)
+  university: Isfahan University of Technology
+  year: Sep 2021 -- Sep 2022
+  location: Isfahan, Iran
+  description: "My research is on Active Inference, initially introduced by Karl Friston. My main goal is to design an agent that hallucinates in the virtual environment. I use Unity as an environment and implement the agent with PyTorch. For connecting my algorithm to Unity, I use the Unity ML-Agents package."
+  link: https://github.com/mgh5225/AI-RHI-fixed
+  supervisor: This research is under the supervision of <a href='http://www.manshaei.org/' target='_blank'><b>Prof. Mohammad Hossein Manshaei</b></a>

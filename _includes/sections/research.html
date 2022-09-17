@@ -1,0 +1,17 @@
+<div class="row">
+    <div class="col-lg-12">
+        <h3 class="resume-title">Research Projects</h3>
+        {% for research in site.data.research %}
+        <div class="resume-item">
+            <h4>{{research.title}}</h4>
+            <h5>{{research.year}}</h5>
+            <p><em>{{research.university}}</em> -- <em>{{research.location}}</em></p>
+            <p>{{research.description}}</p>
+            <p><em>{{research.supervisor}}</em></p>
+            {% if research.link %}
+            <a href="{{research.link}}" target="_blank"><em>Related Link</em></a>
+            {%endif%}
+        </div>
+        {% endfor %}
+    </div>
+</div>
