@@ -1,0 +1,29 @@
+<div class="row">
+    <div class="col-lg-6">
+        <h3 class="resume-title">Experience</h3>
+        {% for experience in site.data.experience %}
+        <div class="resume-item">
+            <h4>{{experience.title}}</h4>
+            <h5>{{experience.year}}</h5>
+            <p><em>{{experience.place}}</em> -- <em>{{experience.location}}</em></p>
+            <p>{{experience.description}}</p>
+        </div>
+
+        {% endfor %}
+    </div>
+
+    <div class="col-lg-6">
+        <h3 class="resume-title">Recent Projects</h3>
+        {% for project in site.data.projects %}
+        <div class="resume-item">
+            <h4>{{project.title}}</h4>
+            <h5>{{project.year}}</h5>
+            <p>{{project.description}}</p>
+            {% if project.link %}
+            <a href="{{project.link}}" target="_blank"><em>Related Link</em></a>
+            {%endif%}
+        </div>
+
+        {% endfor %}
+    </div>
+</div>
