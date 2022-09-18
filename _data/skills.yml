@@ -1,0 +1,23 @@
+types:
+  - id: soft
+    name: Soft Skills
+  - id: hard
+    name: Hard skills
+
+soft:
+  - Hard Working
+  - Teamwork
+  - Problem Solving
+
+hard:
+  - Deep learning & AI
+  - Machine learning
+  - C/C++
+  - Python
+  - Matlab
+  - C#
+  - Java
+  - JS
+  - Rust
+  - Unity Engine
+  - Unreal Engine

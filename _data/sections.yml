@@ -10,3 +10,7 @@
   id: experience
   title: Experience & Projects
 
+- name: About
+  id: about
+  title: About Me
+

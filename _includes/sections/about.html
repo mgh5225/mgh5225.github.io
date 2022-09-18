@@ -1,0 +1,85 @@
+<div class="row">
+    <div class="col-lg-6 interests">
+        <h3 class="resume-title">Skills</h3>
+        {%for type in site.data.skills.types %}
+        <div class="resume-item">
+            <h4>{{type.name}}</h4>
+            <div class="row">
+                {%for skill in site.data.skills[type.id] %}
+                <div class="col-lg-6 col-md-6 col-sm-6 mt-4">
+                    <div class="icon-box">
+                        <h3>{{skill}}</h3>
+                    </div>
+                </div>
+                {%endfor%}
+            </div>
+        </div>
+        {%endfor%}
+    </div>
+
+    <div class="col-lg-6">
+        <h3 class="resume-title">Awards</h3>
+        {% for award in site.data.awards %}
+        <div class="resume-item">
+            <h4>{{award.title}}</h4>
+            <p>{{award.description}}</p>
+        </div>
+        {%endfor%}
+    </div>
+
+    <div class="col-lg-6">
+        <h3 class="resume-title">Languages</h3>
+        {% for language in site.data.languages %}
+        <div class="resume-item">
+            <div class="d-flex justify-content-between">
+                <h4>{{language.lang}}</h4>
+                <div class="dot"></div>
+                <p><em>{{language.type}}</em></p>
+            </div>
+            {% for detail in language.details %}
+            <p>{{detail}}</p>
+            {% endfor %}
+        </div>
+        {%endfor%}
+    </div>
+
+    <div class="col-lg-6">
+        <h3 class="resume-title">Selected Courses</h3>
+        {% for course in site.data.courses %}
+        <div class="resume-item">
+            <div class="d-flex justify-content-between">
+                <h4>{{course.name}}</h4>
+                <div class="dot"></div>
+                <p><em>{{course.score}}</em></p>
+            </div>
+        </div>
+        {%endfor%}
+    </div>
+
+    <div class="col-lg-12 testimonials">
+        <h3 class="resume-title">References</h3>
+        <div class="row">
+            {% for ref in site.data.references %}
+            <div class="col-lg-4">
+                <div class="testimonial-item">
+                    <p>
+                        <span class="d-flex align-items-center">
+                            <i class="fa fa-university"></i> <em class="mx-2">{{ref.university}}</em>
+                        </span>
+                        <span class="d-flex align-items-center">
+                            <i class="fa fa-map-marker"></i> <em class="mx-2">{{ref.location}}</em>
+                        </span>
+                        <span class="d-flex align-items-center">
+                            <i class="fa fa-envelope"></i> <em class="mx-2"><a
+                                    href="mailto:{{ref.email}}">{{ref.email}}</a></em>
+                        </span>
+                    </p>
+                    <img src="{{ref.avatar}}" class="testimonial-img" alt="{{ref.name}}">
+                    <h3><a href='{{ref.link}}' target='_blank'>{{ref.name}}</a></h3>
+                    <h4>{{ref.position}}</hh4>
+                </div>
+            </div>
+            {%endfor%}
+        </div>
+    </div>
+</div>

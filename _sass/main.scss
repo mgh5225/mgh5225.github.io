@@ -43,6 +43,14 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
+.dot {
+  border-bottom: 2px dashed rgba(255, 255, 255, 0.2);
+  display: block;
+  height: 12px;
+  margin: 0 1rem 2px 1rem;
+  flex-grow: 1;
+}
+
 /*--------------------------------------------------------------
   # Header
   --------------------------------------------------------------*/
@@ -553,11 +561,14 @@ section .container {
 
 .testimonials .testimonial-item .testimonial-img {
   width: 90px;
+  height: 90px;
   border-radius: 50%;
   margin: -40px 0 0 40px;
   position: relative;
   z-index: 2;
   border: 6px solid rgba(255, 255, 255, 0.12);
+  background-size: cover;
+  background-position: top center;
 }
 
 .testimonials .testimonial-item h3 {
