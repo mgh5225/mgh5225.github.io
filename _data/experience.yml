@@ -4,15 +4,6 @@
   location: Isfahan, Iran
   description: ""
 
-- title: Teaching Assistant
-  place: Isfahan University of Technology
-  year: Jan 2020 – Jun 2020 
-  location: Isfahan, Iran
-  description: > 
-    I was an undergraduate teaching assistant at Advanced Programming.
-    I designed homework for students and held workshops for them. At the end of the course,
-    I designed a project related to banking systems using C++ and Qt.
-
 - title: Freelance
   place: Dutycope
   year: Aug 2020 – Jan 2021
@@ -25,3 +16,12 @@
       <li>I created the frontend with React.js and Next.js and connected the frontend to the backend.</li>
       <li>For the file server, I connected the server to google drive for better protection and management.</li>
     </ul>
+
+- title: Teaching Assistant
+  place: Isfahan University of Technology
+  year: Jan 2020 – Jun 2020 
+  location: Isfahan, Iran
+  description: > 
+    I was an undergraduate teaching assistant at Advanced Programming.
+    I designed homework for students and held workshops for them. At the end of the course,
+    I designed a project related to banking systems using C++ and Qt.
