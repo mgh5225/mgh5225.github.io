@@ -1,7 +1,7 @@
 - lang: English
   type: Fluent
   details:
-    - "IELTS: L8 R8 W6.5 S7 O7.5"
+    - "IELTS: <i>Overall</i> <b>7.5</b> (<b>L</b>8 <b>R</b>8 <b>W</b>6.5 <b>S</b>7)"
 
 - lang: Persian
   type: Native
