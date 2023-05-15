@@ -11,12 +11,12 @@
   year: Aug 2020 -- Jan 2021
   location: Isfahan, Iran
   description: > 
-    I was a full-stack developer at Dutycope.
-    My main goal was to create an API for a freelance website (Dutycope.com):
+    As a Full Stack Developer at Dutycope, my primary responsibility was to develop an API for a freelance website, Dutycope.com.
+    My contributions included:
     <ul>
-      <li>I implemented a server with Node.js and config the web server to create an API.</li>
-      <li>I created the frontend with React.js and Next.js and connected the frontend to the backend.</li>
-      <li>For the file server, I connected the server to google drive for better protection and management.</li>
+      <li>Implementing a server using Node.js and configuring the web server to create an API</li>
+      <li>Developing the frontend using React.js and Next.js, and connecting it to the backend</li>
+      <li>Integrating the file server with Google Drive for improved protection and management</li>
     </ul>
 
 - title: Teaching Assistant
