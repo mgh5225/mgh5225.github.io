@@ -3,9 +3,7 @@
   year: Jan 2023 -- Ongoing
   location: Isfahan, Iran
   description: >
-    This research uses artificial intelligence technologies to analyze and optimize human interactions with their work environment.
-    The goal is to improve productivity and comfort while reducing injury risk.
-    These tools leverage computer vision, machine learning, and data analysis to evaluate human posture, movement, and workplace conditions, providing valuable insights for risk analysis and injury prevention.
+    This research utilizes computer vision, machine learning, and data analysis to evaluate human posture, movement, and workplace conditions, providing valuable insights for risk analysis and injury prevention.
   supervisor: This research is under the supervision of <a href='https://zahabi.iut.ac.ir/' target='_blank'><b>Dr. Sayed Jalal Zahabi</b></a> and <a href='http://www.manshaei.org/' target='_blank'><b>Dr. Mohammad Hossein Manshaei</b></a>
 
 - title: Bachelor's Project --- Research Assistant
@@ -13,9 +11,7 @@
   year: Sep 2021 -- Sep 2022
   location: Isfahan, Iran
   description: >
-    My research was on Active Inference, initially introduced by Karl Friston.
-    My main goal was to design an agent that hallucinates in the virtual environment.
-    I used Unity as an environment and implemented the agent with PyTorch.
-    For connecting my algorithm to Unity, I used the Unity ML-Agents package.
+    This research focused on designing a virtual agent capable of hallucination using Active Inference.
+    I employed Unity to create the virtual environment and implemented the agent using PyTorch.
   link: https://github.com/mgh5225/AI-RHI-fixed
   supervisor: This research is under the supervision of <a href='http://www.manshaei.org/' target='_blank'><b>Dr. Mohammad Hossein Manshaei</b></a> and <a href='https://zahabi.iut.ac.ir/' target='_blank'><b>Dr. Sayed Jalal Zahabi</b></a>

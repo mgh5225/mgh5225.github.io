@@ -3,27 +3,19 @@
   year: July 2022 -- Sep 2022
   location: Isfahan, Iran
   description: >
-    At a deep learning-focused laboratory, I contributed to developing projects in various areas, such as Natural Language Processing (NLP), Generative Adversarial Networks (GANs), and Facial Expression Recognition.
-    My work involved exploring diverse fields within deep learning and designing innovative solutions to advance our understanding of artificial intelligence.
+    At a deep learning-focused laboratory, I contributed to developing projects in various areas, such as NLP, GANs, and Facial Expression Recognition.
+
 
 - title: Freelance
   place: Dutycope
   year: Aug 2020 -- Jan 2021
   location: Isfahan, Iran
   description: > 
-    As a Full Stack Developer at Dutycope, my primary responsibility was to develop an API for a freelance website, Dutycope.com.
-    My contributions included:
-    <ul>
-      <li>Implementing a server using Node.js and configuring the web server to create an API</li>
-      <li>Developing the frontend using React.js and Next.js, and connecting it to the backend</li>
-      <li>Integrating the file server with Google Drive for improved protection and management</li>
-    </ul>
+    As Full Stack Developer at Dutycope (a freelance website), I developed its API, implementing a server with Node.js, a frontend with Next.js, and integrating a file server with Google Drive.
 
 - title: Teaching Assistant
   place: Isfahan University of Technology
   year: Jan 2020 -- Jun 2020 
   location: Isfahan, Iran
   description: > 
-    I was an undergraduate teaching assistant at Advanced Programming.
-    I designed homework for students and held workshops for them. At the end of the course,
-    I designed a project related to banking systems using C++ and Qt.
+    As an undergraduate TA for the <i><b>Advanced Programming</b></i> course, I designed engaging assignments and assisted students in code debugging, emphasizing creativity, collaboration, and real-world applications.
