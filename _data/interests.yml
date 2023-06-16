@@ -10,6 +10,10 @@
   icon: fa fa-eye
   color: "#ff5828"
 
+- title: Bioinformatics
+  icon: fa fa-dna
+  color: "#ff4d4d"
+
 - title: Natural Language Processing
   icon: fa fa-book
   color: "#11dbcf"
