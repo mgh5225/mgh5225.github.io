@@ -1,8 +1,9 @@
-- title: Pattern Databases with ANN
+- title: Additive Pattern Database with ANN
   year: 2023
   description: >
     LibTorch (C++ Distributions of PyTorch) implementation of
     <i><b>Optimal Search with Neural Networks: Challenges and Approaches</i></b> paper.
+  link: https://github.com/mgh5225/PDB-ANN
 
 - title: Deep Active Inference of rubber-hand Illusion
   year: 2022
