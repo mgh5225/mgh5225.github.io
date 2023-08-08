@@ -29,4 +29,18 @@
             {%endfor%}
         </div>
     </div>
+
+    <div class="col-lg-12">
+        <div class="resume-title">Online Courses</div>
+        <div class="row">
+            {% for course in site.data.online_courses %}
+            <div class="col-lg-12 resume-item">
+                <h4>{{course.name}}</h4>
+                <h5>{{course.faculty}}</h5>
+                <p><em>{{course.description}}</em></p>
+                <a href="{{course.link}}" target="_blank"><em>Related Link</em></a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
 </div>

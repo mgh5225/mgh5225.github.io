@@ -1,0 +1,5 @@
+- name: "Machine Learning with Graphs"
+  faculty: "Stanford CS224W"
+  link: http://web.stanford.edu/class/cs224w/
+  description: >
+    The course focuses on analyzing massive graphs which are used to model social, technological, and biological systems. It covers computational, algorithmic, and modeling challenges and introduces students to machine learning techniques and data mining tools. The goal is to reveal insights on a variety of networks by studying the underlying graph structure and its features.
