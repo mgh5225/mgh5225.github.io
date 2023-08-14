@@ -18,6 +18,6 @@
   icon: fa fa-book
   color: "#11dbcf"
 
-- title: Bioinformatics
-  icon: fa fa-dna
-  color: "#ff4d4d"
+# - title: Bioinformatics
+#   icon: fa fa-dna
+#   color: "#ff4d4d"
