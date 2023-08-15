@@ -1,3 +1,9 @@
+- name: "Reinforcement Learning"
+  faculty: "Stanford CS234"
+  link: http://web.stanford.edu/class/cs234/
+  description: >
+    This class is about reinforcement learning, which is a powerful way for autonomous systems to learn how to make good decisions. It is relevant to many tasks, such as robotics, game playing, consumer modeling, and healthcare. Students will learn about the core challenges and approaches, including generalization and exploration.
+
 - name: "Machine Learning with Graphs"
   faculty: "Stanford CS224W"
   link: http://web.stanford.edu/class/cs224w/
