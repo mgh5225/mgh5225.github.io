@@ -45,7 +45,7 @@
 
     <div class="col-lg-6">
         <h3 class="resume-title">Selected Courses</h3>
-        {% for course in site.data.courses %}
+        {% for course in site.data.selected_courses %}
         <div class="resume-item">
             <div class="d-flex justify-content-between">
                 <h4>{{course.name}}</h4>
@@ -76,7 +76,7 @@
                     </p>
                     <img src="{{ref.avatar}}" class="testimonial-img" alt="{{ref.name}}">
                     <h3><a href='{{ref.link}}' target='_blank'>{{ref.name}}</a></h3>
-                    <h4>{{ref.position}}</hh4>
+                    <h4>{{ref.position}}</h4>
                 </div>
             </div>
             {%endfor%}

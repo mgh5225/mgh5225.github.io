@@ -1,14 +1,2 @@
-- name: Fundamentals of Computer Vision
-  score: 4/4
-
-- name: Artificial Intelligence
-  score: 4/4
-
-- name: Fundamentals of Computational Intelligence
-  score: 4/4
-
-- name: Fundamentals of Machine Learning
-  score: 4/4
-
-- name: Advanced Programming and Lab
-  score: 4/4
+- name: Bachelor of Science Courses
+  id: iut_courses

@@ -1,0 +1,37 @@
+<div class="row">
+  {%for type in site.data.courses %}
+  <div class="col-lg-12">
+    <div class="resume-title">{{ type.name }}</div>
+    <div class="row">
+      {% for section in site.data[type.id] %}
+      <div class="col-lg-12">
+        <h4 class="resume-title"><em>{{section.type}}</em></h4>
+        {% for course in section.courses %}
+        <div class="col-lg-12 resume-item" id="{{course.name}}">
+          <h4><a href="#{{course.name}}">{{course.name}}</a></h4>
+          <h5>Code: {{course.code}}</h5>
+          <p><em>{{course.description}}</em></p>
+          {% if course.co_requisite %}
+          <p>
+            <b>Co-requisite:</b>
+            {% for name in course.co_requisite %}
+            <a href="#{{name}}"><em>{{name}}</em></a>,
+            {% endfor %}
+          </p>
+          {% endif %}
+          {% if course.prerequisite %}
+          <p>
+            <b>Prerequisite:</b>
+            {% for name in course.prerequisite %}
+            <a href="#{{name}}"><em>{{name}}</em></a>,
+            {% endfor %}
+          </p>
+          {% endif %}
+        </div>
+        {% endfor %}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  {% endfor %}
+</div>

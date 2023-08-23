@@ -1,0 +1,738 @@
+- courses:
+    - code: "1730115"
+      name: Fundamentals of Computer Programming and Lab
+      credits: 4
+      description:
+        Introduction to Computers, History of Computers, Introduction to
+        computer parts and environments (hardware. Software). Numerical Systems (2's
+        Complement, IEEE Floating point), Constants, Variables, Input and output consoles,
+        Introduction to algorithms implementation, Introduction to structural languages
+        (e.g. C), arithmetic and logical operators. Bitwise operators, flow control
+        and loops (if, while, do...), Casting, Search and sort algorithms, Overloading
+        functions, introduction to Debugging, pointers, File Input and output, Introduction
+        to Class and Data Abstraction.
+    - code: "1730151"
+      name: Fundamentals of Computer Programming Workshop
+      credits: 0
+      description: In appropriation with subjects of the relevant course.
+    - co_requisite:
+        - Fundamentals of Computer Programming and Lab
+      code: "1730217"
+      name: Discrete Mathematical Structures
+      credits: 3
+      description:
+        "Logic and Reasoning, Propositional, Predicate, and Fuzzy Logic,
+        Methods of Proof, Set Theory, Functions, Combinatorial Analysis: Basics of Counting
+        The Pigeonhole Principle, Permutations and Combinations, Recurrence Relations,
+        Generating Functions and Counting, Relations and Ordered Sets, Relations and
+        Their Properties, Representing Relations, Closures of Relations, Equivalence
+        Relations, Partial Ordering ,Partially-ordered sets, Totally-ordered sets, Hasse
+        diagrams, and Lattices, Graphs, Graph Terminology, Representing Graphs and Graph
+        Isomorphism, Connectivity and Euler and Hamiltonian Paths ,Shortest Path Problems,
+        Planar Graphs, Trees , Introduction to Trees and Their Applications, Tree Traversal,
+        Spanning Trees, Fundamentals of Computing , Languages and Grammars, Finite-State
+        Machines, Turing Machines and Computability, Miscellaneous and Review."
+    - code: "1734102"
+      name: Advanced Programming and Lab
+      credits: 4
+      description:
+        This includes a deep dive into C++ programming, an introduction to
+        UI design using QT, and mobile programming for both Android and iOS. It also
+        covers supplementary aspects of C programming, such as memory management, and
+        a thorough understanding of C++ codes. The relationship between coding and the
+        operating system, file management, and IO streams is explored, as well as the
+        implementation of basic data structures like linked lists.\\Generic programming
+        is discussed, along with the implementation of inheritance and its associated
+        challenges in C++. Other topics include operator overloading, GUI design using
+        QT, the essentials of multithreading, exception handling, and the principles
+        of object-oriented programming. The comparison between C++ and other languages
+        like C\#, Java, etc. is also addressed, as well as the process of debugging
+        and testing programs.\\The course also touches on function calling conventions,
+        dynamic memory coding, an introduction to functional programming, and the development
+        of dynamic-link-libraries. The OpenCV library is used as an example to show
+        how to load an image and perform matrix manipulation among other things.
+      prerequisite:
+        - Fundamentals of Computer Programming and Lab
+    - code: "1734212"
+      name: Data Structure
+      credits: 3
+      description:
+        The analysis involves evaluating the efficiency of the algorithm
+        and the use of recursion. Data abstractions are examined, along with basic data
+        structures like arrays and records. The representation methods of various data
+        structures such as stacks, queues, linked lists, trees, and graphs are also
+        considered. A variety of sorting algorithms are explored, including bubble sort,
+        selection sort, linear insertion sort, tree sort, heap sort, quick sort, and
+        merge sort. Additionally, different searching algorithms are studied, such as
+        binary search, binary search trees (BST), AVL trees, B-trees, and digital search.
+      prerequisite:
+        - Advanced Programming and Lab
+        - Discrete Mathematical Structures
+    - code: "1734325"
+      name: Theory of Automata and Formal Languages
+      credits: 3
+      description:
+        Finite state automata and regular expressions. Pushdown Automata
+        and context free grammars, linear bounded Automata and context sensitive grammars,
+        Turing machines and unrestricted grammars, relations between machines and grammars.
+      prerequisite:
+        - Data Structure
+    - code: "1734425"
+      name: Algorithm Design
+      credits: 3
+      description:
+        This course in intended for undergraduate students of Software Engineering
+        and it provides basic concepts and methods for designing and analyzing algorithms.
+        Students are supposed to have already passed Discrete Structures and Data Structures
+        and Algorithms courses. In particular, after a quick review of growth of functions
+        and asymptotic nations, four general paradigms of Divide and Conquer, Dynamic
+        Programming, Greedy, Backtracking, and Branch and Bound are introduced using
+        basic examples including basic graph problems.
+      prerequisite:
+        - Data Structure
+    - code: "1734420"
+      name: Artificial Intelligence
+      credits: 3
+      description:
+        In this course, students will explore the field of Artificial Intelligence
+        and learn how to embed intelligent behavior in machines. The course will cover
+        fundamental aspects of artificial intelligence in a broad and general fashion,
+        with a focus on problem-solving, knowledge and reasoning using first-order logic,
+        planning, uncertain and probabilistic reasoning, learning, and robotics.\\By
+        studying this course, students will gain a solid understanding of the fundamental
+        principles and techniques of artificial intelligence. They will learn how to
+        apply these techniques to solve complex problems and develop intelligent systems.
+        The course will provide a strong foundation for further studies or careers in
+        the field of artificial intelligence.
+      prerequisite:
+        - Data Structure
+        - Algorithm Design
+    - code: "1740312"
+      name: Science Communication Skill
+      credits: 2
+      description:
+        This course focuses on developing the necessary skills for effective
+        oral and written presentations in the field of science. It covers a range of
+        topics related to communication and publication in scientific research.\\In
+        the first part of the course, students will study the principles of oral and
+        written presentations. They will learn about the fundamentals of effective communication
+        in scientific settings and techniques for delivering clear and engaging presentations.
+        Students will also develop skills in structuring and organizing scientific information
+        to effectively convey their message.\\The course will then delve into the basic
+        concepts of authenticity and plagiarism. Students will understand the importance
+        of maintaining authenticity in scientific research and the ethical guidelines
+        for avoiding plagiarism. They will learn best practices for citing and referencing
+        sources and the consequences of plagiarism in the scientific community.\\Next,
+        the course will cover general concepts of technical publication and its structure.
+        Students will become familiar with the components of a technical publication,
+        including the title, abstract, keywords, introduction, main body, conclusions,
+        references, and appendices. They will also explore the structure of different
+        types of reports, such as lab reports, term papers, and thesis, and develop
+        skills in effectively structuring and organizing scientific reports.\\The final
+        part of the course focuses on oral presentations. Students will learn the process
+        of preparing and delivering effective oral presentations. They will understand
+        the importance of visual aids, sets, and tools in enhancing presentations. Through
+        practical exercises, students will develop techniques for engaging and captivating
+        an audience during oral presentations.\\By the end of this course, students
+        will have gained the necessary skills to communicate scientific information
+        effectively through both oral and written means. They will have a solid understanding
+        of the principles of scientific communication, including the importance of authenticity
+        and avoiding plagiarism. Students will also have the ability to structure and
+        organize scientific reports and deliver engaging oral presentations.
+      prerequisite:
+        - English Language for Computer Engineering
+    - code: "1730435"
+      name: Fundamentals of Machine Learning
+      credits: 3
+      description:
+        Machine learning is a subfield of artificial intelligence that deals
+        with the development of algorithms and models that enable computers to learn
+        from data and make predictions or decisions without being explicitly programmed.
+        This comprehensive course provides an introduction to the fundamental principles,
+        techniques, and applications of machine learning.\\Throughout the course, we
+        will cover the main approaches in machine learning and discuss the basic principles
+        and techniques used in this field. We will explore topics such as supervised
+        learning (including generative and discriminative learning, parametric and non-parametric
+        learning, and neural networks), unsupervised learning (including clustering,
+        dimensionality reduction, and kernel methods), and learning theory (including
+        bias/variance tradeoffs and practical advice).\\By the end of the course, students
+        will have a solid understanding of modern machine learning and will be equipped
+        with the necessary skills to apply machine learning techniques to real-world
+        challenges.
+      prerequisite:
+        - Advanced Programming and Lab
+        - Engineering Statistics and Probability
+    - code: "1730403"
+      name: Fundamentals of Computational Intelligence
+      credits: 3
+      description:
+        The objective of this course is to provide students with a deep understanding
+        of computational intelligence tools and their applications in engineering. Through
+        a comprehensive curriculum, students will learn about evolutionary algorithms,
+        fuzzy methods, and neural networks, which are widely used in industries such
+        as manufacturing, robotics, automation, and data analysis. By mastering these
+        tools, students will gain the ability to solve complex problems, optimize systems,
+        make data-driven decisions, and improve overall efficiency in various engineering
+        domains.
+      prerequisite:
+        - Algorithm Design
+    - code: "1730460"
+      name: Fundamentals of Computer Vision
+      credits: 3
+      description:
+        This course provides a comprehensive introduction to computer vision
+        and image analysis, with a specific focus on two-dimensional computer vision.
+        It covers the fundamental concepts and techniques used in computer vision and
+        explores its applications in various industries. Through practical projects,
+        students will gain hands-on experience in solving real-world problems in the
+        field of computer vision. By the end of the course, students will have a solid
+        understanding of computer vision principles and the ability to apply them to
+        industrial applications.
+      prerequisite:
+        - Algorithm Design
+  type: AI Related Courses
+- courses:
+    - code: "1730101"
+      name: Computer Workshop
+      credits: 1
+      description:
+        This course introduces students to the basics of computer usage.
+        It begins by familiarizing students with various operating systems. After that,
+        students learn how to type in both Farsi and English. The course then progresses
+        to teach students how to use a word processor, spreadsheet software, presentation
+        software, and databases. Finally, the course concludes by teaching students
+        how to keep their computers safe and the correct ergonomics for computer use.
+    - code: "1740101"
+      name: Introduction to Electrical and Computer Engineering
+      credits: 1
+      description:
+        This undergraduate course provides a broad review of important challenges
+        in computer science and computer engineering. The course is given to the computer
+        and IT engineering students in the first semester. Students would be able to
+        understand differences between different fields of computer sciences and engineering.
+        They learn the main topics of computer and IT engineering courses, which would
+        be delivered at the IUT. They also learn about department and faculties. There
+        are many topics, including but not limited to Software Engineering, Hardware
+        Engineering, Networking, Algorithm, Machine Learning, AI, Database, and Networking.
+    - code: "1710204"
+      name: Electrical Safety Principles Workshop
+      credits: 0
+      description:
+        Prevention of electric shock (health and work safety), conductors,
+        introduction to earth connections, introduction to types of cables and air wires
+        and their links, introduction to voltage breakers, introduction to power connectors,
+        introduction to capacitors and reactors, application of 1-pole and 2- pole keys,
+        change and plug, news transmission systems, relays, controlling and connectors
+        circuits, Introduction to conductors, domestic and industrial wiring, installing
+        high and low pressure boards, introduction to different transformers and their
+        applications (power trans, voltage trans current, radio trans).
+    - code: "1732203"
+      name: Digital Systems Design I
+      credits: 3
+      description:
+        "This course provides the student with a foundation in the fundamentals
+        of digital logic design and computer logic circuits. Both combinational and
+        sequential logic circuits are covered in this course. The emphasis is on the
+        use of Boolean algebra and basic logic gates to build cost effective complex
+        logic circuits. Topics include: Number systems, Binary arithmetic, Codes, Logic
+        gates, Boolean algebra and simplifications, Half adders, Full adders, Decoders,
+        Encoders, Multiplexers, Latches, Flip-Flops, Counters, Shift Registers, Memory
+        circuits, and ALU (Arithmetic and Logic Unit)."
+    - co_requisite:
+        - Physics II
+        - Differential Equations
+      code: "1732207"
+      name: Basics of Electrical and Electronic Circuits
+      credits: 3
+      description:
+        Circuit abstraction, Ideal and practical two-terminal elements, Kirchhoff's
+        laws, analysis of resistive networks, network and superposition theorems, analysis
+        of nonlinear circuits, digital abstraction, BJT switch, MOSFET switch, energy
+        storage elements, analysis of RC, RL circuits, state and state variables, digital
+        memory, operational amplifier and applications, 555 timer and applications.
+    - code: "1914252"
+      name: Engineering Mathematics
+      credits: 3
+      description:
+        This course covers a wide range of topics in mathematics, including
+        complex differentiability, Cauchy-Riemann differential equations, contour integration,
+        residue calculus, harmonic functions, matrix factorizations, and geometric properties
+        of complex mappings. It also includes elementary operations with complex numbers,
+        derivatives, integrals, Cauchy's Theorem and its consequences such as the integral
+        formula, power series, residue theorem, and applications to real integrals and
+        series.
+      prerequisite:
+        - General Mathematics II
+        - Differential Equations
+    - co_requisite:
+        - Digital Systems Design I
+      code: "1732204"
+      name: Digital Systems Design I Lab
+      credits: 1
+      description:
+        This course covers various topics including logic gates, familiarization
+        with several logic circuits, determination of parameters of digital IC's, several
+        combinational circuits (decoder, multiplexer, parity generators, and checkers),
+        displays, study of types of flip flops, asynchronous counters, synchronous counters,
+        familiarization with several IC counters, and shift registers.
+    - code: "1732208"
+      name: Computer Architecture and Organization
+      credits: 3
+      description:
+        Principles of an assembly language programming, introduction to computer
+        architecture, internal representation of data and instruction, memory organization,
+        microprogramming multi-level machines, Control memory, common bus organization,
+        stack organization and RISC and CICS structures, pipeline and basics of parallel
+        machines.
+      prerequisite:
+        - Digital Systems Design I
+    - co_requisite:
+        - Computer Architecture and Organization
+      code: "1740320"
+      name: Computer Networks
+      credits: 3
+      description:
+        "This undergraduate course provides an overview on networking and
+        Internet. The course covers the following topics: Introduction (Protocol, Access
+        Net, Physical Media, Packet/Circuit Switching, Internet Structure, Performance:
+        Loss, Delay, Throughput, Introduction to Network Security, Protocol Layers),
+        Application layer (Principles of Network Applications, Web and HTTP, FTP, SMTP,
+        POP3, DNS, TCP and UDP Sockets), Transport Layer (Transport-layer services,
+        Multiplexing and demultiplexing, Connectionless transport: UDP, Principles of
+        reliable data transfer (Rdt protocol, Stop and Wait, Go-back-N, Selective repeat),
+        Connection-oriented transport: TCP (Segment structure, Reliable data transfer,
+        Flow control), Connection management (Principles of congestion control, TCP
+        Congestion Control), Network Layer (Virtual circuit and datagram networks, Inside
+        a router, Internet Protocol, DHCP, NAT, ICMP, IPv6 Addressing), Link layer and
+        LANs (Framing, Flow control, Half-duplex and full-duplex, Error detection and
+        correction, Multiple access protocols)."
+    - code: "2510318"
+      name: English Language for Computer Engineering
+      credits: 2
+      description:
+        This subject aims at raising students' specific language ability
+        in reading and writing academic texts of their own major disciplines. The subject
+        will use reading texts from chapters of books or journal articles recommended
+        by teachers of different majors for reading comprehension. These texts will
+        also be used for analysis to enable students to develop an awareness of the
+        genre in that discipline.
+      prerequisite:
+        - Technical English Language (General)
+    - co_requisite:
+        - Computer Architecture and Organization
+      code: "1718449"
+      name: Hardware Description Languages
+      credits: 3
+      description:
+        Introduction to Verilog HDL, gate-level modeling, data flow modeling,
+        behavioral modeling, timing simulation, switch-level modeling, strength-level
+        modeling.
+    - code: "1732312"
+      name: Microprocessors
+      credits: 3
+      description:
+        Internal organization of computers, memory organization, memory types
+        and address decoding, CPU architecture, microcontroller versus general purpose
+        microprocessor, microcontroller and embedded processors, history and features
+        of AVR microcontroller, AVR architecture and assembly language programming,
+        AVR port programming, AVR advanced assembly language programming, AVR programming
+        in C, AVR hardware connections, timers programming, and interrupt programming,
+        AVR Serial port programming, LCD and keyboard interfacing, ADC , DAC, and Sensor
+        interfacing, relay and stepper motor Interfacing, PWM programming and DC motor
+        control.
+      prerequisite:
+        - Computer Architecture and Organization
+    - code: "1734303"
+      name: Database I
+      credits: 3
+      description:
+        This course provides an introduction to the fundamental concepts
+        used in data modeling and database implementation. Topics covered include the
+        data modeling process, basic relational concepts, normalization, relational
+        algebra, SQL, and guidelines for mapping a data model into a relational database.
+        Students will have the opportunity to model and implement a multimedia and/or
+        text-only problem using a commercially available DBMS such as Microsoft SQL
+        Server or Oracle.
+      prerequisite:
+        - Data Structure
+    - co_requisite:
+        - Operating Systems I
+      code: "1734304"
+      name: Operating Systems Lab
+      credits: 1
+      description:
+        This course provides an introduction to the fundamental concepts
+        of operating systems, focusing on their design, implementation, and usage. The
+        topics covered include process management, threads, CPU scheduling, process
+        synchronization, deadlock management, memory management, file systems, and input/output
+        systems. Further, we delve into the intricacies of main memory management, virtual
+        memory, I/O and device drivers, secondary storage management, and the critical
+        concepts of sections and deadlocks. This comprehensive course ensures a solid
+        understanding of both the theoretical principles and practical aspects of operating
+        systems.
+    - code: "1734320"
+      name: Operating Systems I
+      credits: 3
+      description:
+        This course covers an overview of operating systems, including their
+        functionalities and characteristics. It also explores hardware concepts related
+        to operating systems such as CPU states, I/O channels, memory hierarchy, and
+        microprogramming. The course discusses the concept of a process, operations
+        on processes, process states, concurrent processes, process control blocks,
+        and process context. Additionally, it focuses on UNIX process control and management,
+        covering topics like process control blocks (PCBs), signals, forks, and pipes.
+        The course also delves into interrupt processing, operating system organization,
+        OS kernel First Level Interrupt Handlers (FLIH), and dispatchers. It explores
+        job and processor scheduling, scheduling algorithms, and process hierarchies.
+        Furthermore, it addresses the problems of concurrent processes, including critical
+        sections, mutual exclusion, synchronization, and deadlock. The course examines
+        mutual exclusion and process cooperation, as well as producer and consumer processes.
+        It covers semaphores, their definition, initialization, wait, and signal operations.
+        The course discusses the use of semaphores to implement mutex, process synchronization,
+        and other functionalities, along with their implementation. It also explores
+        critical regions, Conditional Critical Regions, monitors, and Ada tasks. Inter-process
+        Communication (IPC), Message Passing, Direct and Indirect communication are
+        discussed. The course covers deadlock prevention, detection, avoidance, and
+        the banker's algorithm. It also covers memory organization and management, storage
+        allocation, virtual memory concepts, paging and segmentation, address mapping,
+        virtual storage management, and page replacement strategies.
+      prerequisite:
+        - Data Structure
+        - Computer Architecture and Organization
+    - co_requisite:
+        - Database I
+      code: "1734452"
+      name: Database Lab
+      credits: 1
+      description:
+        This lab covers a wide range of practical sections on installing
+        a DBMS like MS SQL Server, configuration of its engine and enterprise management
+        environment, the SQL language, inner and outer join operations, aggregate functions,
+        subqueries and common type expressions, handling null values, triggers, stored
+        procedures and user defined functions and indexing method.
+    - code: "1736310"
+      name: Computer Networks II
+      credits: 3
+      description:
+        This advance networking course covers a comprehensive range of topics,
+        including Internet network architecture, transport layer concepts such as congestion
+        control, fairness, and scheduling, routing algorithms like link state, DV, and
+        hierarchical, routing protocols in the internet such as RIP, OSPF, and BGP,
+        multicast routing, link layer protocol covering framing, error detection and
+        correction, multiple access, addressing, VLAN, PPP protocol, and link layer
+        switch, ATM network, MPLS, queuing theory, and the physical layer.
+      prerequisite:
+        - Computer Networks
+    - co_requisite:
+        - Computer Networks
+      code: "1740404"
+      name: Computer Networks Lab
+      credits: 1
+      description:
+        '- Network setting in windows and Linux \\- Virtual machine \\- Linux
+        firewall \\- Analysis some appellation protocols (WEB, DNS, ICMP) \\- Switching
+        basics [Basic configuring of switches] \\- VLAN Configuration \\- Routing Basics
+        [Basic configuring of routers] \\- Static routing in CISCO router \\- RIP Routing
+        \\- OSPF routing \\- VLAN Configuration \\- Case study (Design a network)'
+    - co_requisite:
+        - Engineering Mathematics
+      code: "1718204"
+      name: Signal and Systems Analysis
+      credits: 3
+      description:
+        Primary definitions of systems and signal, various kinds of systems,
+        introduction to modeling of various physical systems, analysis of linear and
+        time independent (continuous and discrete) systems, impulse response, convolution
+        integral, Fourier analysis, energy density, spectrum and power sampling theorem,
+        system analysis by Laplace transform, signal flow graphs, system analysis in
+        state space (continuous and discrete), Z transform, discrete systems analysis
+        by the Z transform.
+    - co_requisite:
+        - Software Engineering I
+      code: "1734307"
+      name: Software Engineering I Lab
+      credits: 1
+      description:
+        This lab is designed to accompany the Software Engineering I course
+        and is intended for undergraduate students majoring in Software Engineering.
+        It provides hands-on practice in requirements engineering and object-oriented
+        design using UML diagrams such as use-case, sequence, and class diagrams. Students
+        will work on a real project and gain familiarity with modern tools like Visual
+        Paradigm.
+    - co_requisite:
+        - Database I
+      code: "1734312"
+      name: Software Engineering I
+      credits: 3
+      description:
+        Process models, agile processes, system engineering, requirement
+        engineering, analysis engineering, design engineering, architectural design,
+        computer level design, user interface design, software testing, quality management,
+        software engineering with emphasis on UML modeling and design patterns.
+    - code: "1734333"
+      name: Compiler
+      credits: 3
+      description:
+        Lexical analysis, regular expressions and finite automata, syntax
+        analysis, context free grammars, (SLR, LALR, CLR), semantics analysis and intermediate
+        code generation (syntax directed translation method), code generation and runtime
+        storage management.
+      prerequisite:
+        - Theory of Automata and Formal Languages
+    - co_requisite:
+        - Computer Networks
+      code: "1730400"
+      name: Fundamentals of Cybersecurity
+      credits: 3
+      description:
+        '- Introduction: history of cryptography and introduction to security
+        architecture, basic information security concepts and protection mechanisms,
+        Confidentiality, Integrity and Authenticity (CIA).\\- Mathematics: basic material
+        on information theory, Shannon criteria, Symmetric-key encryption, one-time-
+        pad, complexity theory, number theory and background on functions, abstract
+        algebra, and finite fields.\\- Block Ciphers: DES (Data Encryption Standard),
+        AES (Advanced Encryption Standard), encryption modes, linear and differential
+        attacks on block ciphers.\\- Hash functions: Basic constructions, Unkeyed hash
+        functions (MDCs) Keyed hash functions (MACs), Data integrity and message authentication.\\-
+        Public-key cryptography: RSA, ElGamal.\\- Digital signatures: security of public-key
+        cryptography, RSA encryption and digital signature, ElGamal digital signature,
+        DSS (Digital Signature Standard).\\- Key management: Protocols and mechanisms,
+        key establishment and key management, and certification.'
+    - code: "1732401"
+      name: Microprocessors Lab
+      credits: 1
+      description:
+        Introducing to AVR microcontrollers, Programming of I/O ports, LCD,
+        Keyboard, Timers, ADC/DAC, PWM, and RS232. Familiarizing with the use of relay,
+        DC motors, and Dot matrix. And also an interesting tutorial on codevision programming.
+      prerequisite:
+        - Digital Systems Design I Lab
+        - Microprocessors
+    - code: "1730430"
+      name: Fundamentals of Internet of Things
+      credits: 3
+      description:
+        The Fundamentals of Internet of Things (IoT) course is designed to
+        provide non-information security professionals with a comprehensive understanding
+        of IoT devices and their role in technological transformation. With the increasing
+        number of connected devices and the need for organizations to optimize their
+        use of IoT technology, this course aims to equip participants with the knowledge
+        and skills to identify potential use cases and integrate IoT products into their
+        digital transformation plans.\\The course begins by introducing participants
+        to the basics of how IoT products work and their significance in the global
+        technology landscape. Participants will explore a range of IoT use cases and
+        examine their potential applications within their own organizations. Through
+        interactive discussions and practical exercises, participants will learn about
+        the fundamentals of IoT, including the key components of an IoT system and the
+        communication protocols used.
+      prerequisite:
+        - Microprocessors
+        - Computer Networks
+    - code: "1734449"
+      name: Software Engineering II
+      credits: 3
+      description:
+        Advanced software engineering techniques using state-of-the-art tools
+        and techniques and software reuse, component-based design, distributed software
+        design, service-oriented architectures and aspect-oriented software development
+        are discussed. Students perform practical team projects focusing on software
+        design skills. Software project management, project scheduling and risk management
+        based on holistic methods like the Rational Unified Process is also presented
+        to enhance their software project management skills.
+      prerequisite:
+        - Database I
+        - Software Engineering I
+    - code: "1734308"
+      name: Database II
+      credits: 3
+      description:
+        Advanced concepts used in database design and implementation. Transaction
+        processing, XML data exchange support by DBMS, spatial databases and location-dependent
+        queries, as well as an overview of data analysis techniques are among the topics
+        discussed in this course. Student will conduct practical projects in applying
+        the concepts on MS-SQL server, Oracle, PostgreSQL, and MySQL in Database II.
+      prerequisite:
+        - Database I
+    - code: "1734400"
+      name: Software Testing
+      credits: 3
+      description:
+        This undergraduate course is designed to provide a comprehensive
+        understanding of systematic software testing methodologies. It focuses on generating
+        test data from various software models, with a special emphasis on addressing
+        the challenges posed by scientific software testing. The course also introduces
+        the necessary tools and techniques for implementing these methodologies effectively.
+        Students will learn about traditional methods like random test case generation,
+        as well as innovative techniques like metamorphic testing. Furthermore, the
+        course will delve into unit, system, integration, acceptance, and regression
+        testing, while highlighting the importance of test coverage information during
+        the testing process.
+  type: Main Courses
+- courses:
+    - code: "1914106"
+      name: General Mathematics I
+      credits: 3
+      description:
+        Study of single variable calculus, numerical sequences, limits, continuity
+        differentiation, extreme function values, the definite integrals, applications
+        of the definite integrals, Inverse functions, logarithmic and exponential functions,
+        inverse trigonometric and hyperbolic functions, techniques of integration, indeterminate
+        forms, improper integrals, Taylor's formulae, infinite series.
+    - code: "2010115"
+      name: Physics I
+      credits: 3
+      description:
+        Measurement, Motion in two and three dimensions, forces and Newton's
+        laws and its application, momentum, systems of particles, rotational kinetics,
+        rotational dynamics, angular momentum, work and kinetic energy, potential energy,
+        conservation of energy, gravitation, temperature, molecular properties of gasses,
+        first law of thermodynamics, entropy and second law of thermodynamics.
+    - code: "1914107"
+      name: General Mathematics II
+      credits: 3
+      description:
+        "Advanced principles of mathematics and instructions for solving
+        equations: Parametric equations and polar coordinates, vectors in 2- and 3-dimensional
+        Euclidean spaces, vector calculus, matrix arithmetic and determinants, linear
+        transformations, basic linear algebra, differential equations, multi-variable
+        functions, partial derivatives, multiple integrals. Theorems of Green, Gauss
+        (Divergence), and Stokes, cylindrical and spherical coordinates."
+      prerequisite:
+        - General Mathematics I
+    - co_requisite:
+        - General Mathematics II
+      code: "1914251"
+      name: Differential Equations
+      credits: 3
+      description:
+        Nature of differential equations and their solution, family of graphs
+        and vertical routes, physical patterns, separable equation, first order linear
+        differential equation, homogeneous equation, 2nd order linear equation, homogenous
+        equation with fixed constants, method of indefinite constants, method of changing
+        parameters, application of 2nd order equations in physics and mechanics, solution
+        of differential equation with series, Bessel and Gamma functions, Legendre polynomial,
+        an introduction to differential equations set, Laplace transform and its application
+        in solving differential equations.
+      prerequisite:
+        - General Mathematics I
+    - code: "2010125"
+      name: Physics II
+      credits: 3
+      description:
+        Electric charge and Coulomb's law, the electric field, Gauss' law,
+        electric potential energy and potential, the electric properties of materials,
+        capacitance and capacitors, DC circuits, the magnetic field and magnetic field
+        of a current, Faraday's law in induction, magnetic properties of materials,
+        inductance, AC circuits, Ampere's law.
+      prerequisite:
+        - Physics I
+    - co_requisite:
+        - Physics II
+      code: "2010126"
+      name: Physics Lab - Electricity
+      credits: 1
+      description: Testing Electric Circuits subjects practically.
+    - code: "1912291"
+      name: Engineering Statistics and Probability
+      credits: 3
+      description:
+        An introduction to probability theory and statistics, with an emphasis
+        on solving problems in computer science and engineering. Probability and statistics
+        is an important foundation for computer science fields such as machine learning,
+        artificial intelligence, computer graphics, randomized algorithms, image processing,
+        and scientific simulations. Topics in probability include discrete and continuous
+        random variables, probability distributions, sums and functions of random variables,
+        the law of large numbers, and the central limit theorem. Topics in statistics
+        include sample mean and variance, estimating distributions, correlation, regression,
+        and hypothesis testing.
+      prerequisite:
+        - General Mathematics II
+  type: Basic Courses
+- courses:
+    - co_requisite:
+        - Science Communication Skill
+      code: "1740350"
+      name: Project I
+      credits: 3
+      description:
+        Students must submit an essay in the final year of their undergraduate
+        studies.
+      prerequisite:
+        - Completion of at least 100 academic credits
+  type: Project
+- courses:
+    - code: "1740357"
+      name: Internship
+      credits: 1
+      description:
+        Participatory computer experience working for company or not for
+        profit organization in the area or inside research in university. The choice
+        of organization and type of work is to be determined by the student but must
+        be approved in advance by a Computer Engineering faculty member who will coordinate
+        the student's internship.
+      prerequisite:
+        - Completion of at least 80 academic credits
+  type: Internship
+- courses:
+    - code: "2610252"
+      name: Persian
+      credits: 3
+      description:
+        This course teaches Persian literature to students and familiars
+        them with Persian poets.
+    - code: "2710131"
+      name: Physical Education (for Boys)
+      credits: 1
+      description:
+        '- Demonstrate competency in motor skills and movement patterns needed
+        to perform a variety of physical activities.\\- Applies movement concepts and
+        principles to the learning and development of motor skills.\\- Exhibit a physically
+        active lifestyle.\\- Achieves and maintains a health-enhancing level of physical
+        fitness.\\- Demonstrate responsible personal and social behavior in physical
+        activity settings.\\- Exhibits responsible personal and social behavior that
+        respects self and others in physical activity settings.\\- Values physical activity
+        for health, enjoyment, challenge, self-expression, and social interaction.\\-
+        Select one field of sport and receiving skills of it.'
+    - code: "2510111"
+      name: Technical English Language (General)
+      credits: 3
+      description:
+        The course aims to enhance students' efficiency in reading English
+        technical texts found in their textbooks.
+    - code: "2610011"
+      name: Islamic Thought I
+      credits: 2
+      description: Familiarizing to the instructions of Islam.
+    - code: "2710135"
+      name: Sports I (for Boys)
+      credits: 1
+      description: Learning sports.
+      prerequisite:
+        - Physical Education (for Boys)
+    - code: "2610051"
+      name: Subjective Interpretation of Quran
+      credits: 2
+      description:
+        The aim of this course is teaching Quran's Main meaning, in such
+        a way that they will be able to understand Quran's Texts.
+    - code: "2610033"
+      name: The Political Thought of Ayatollah Khomeini
+      credits: 2
+      description: A review on the Islamic thoughts, beliefs and values.
+    - code: "2610022"
+      name: Islamic Ethics
+      credits: 2
+      description:
+        Importance of ethics, Survey of theories about ethics Student's ethics,
+        and Education ethics.
+    - code: "2610013"
+      name: Human in Islam
+      credits: 2
+      description: Familiarizing to the instructions of Islam.
+    - code: "2610041"
+      name: History of Islamic Culture and Civilization
+      credits: 2
+      description:
+        History of early Islamic civilization and how Islamic culture was
+        shaped through the time.
+  type: General Compulsory Courses
