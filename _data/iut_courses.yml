@@ -41,13 +41,13 @@
         covers supplementary aspects of C programming, such as memory management, and
         a thorough understanding of C++ codes. The relationship between coding and the
         operating system, file management, and IO streams is explored, as well as the
-        implementation of basic data structures like linked lists.\\Generic programming
+        implementation of basic data structures like linked lists.<br/>Generic programming
         is discussed, along with the implementation of inheritance and its associated
         challenges in C++. Other topics include operator overloading, GUI design using
         QT, the essentials of multithreading, exception handling, and the principles
         of object-oriented programming. The comparison between C++ and other languages
         like C\#, Java, etc. is also addressed, as well as the process of debugging
-        and testing programs.\\The course also touches on function calling conventions,
+        and testing programs.<br/>The course also touches on function calling conventions,
         dynamic memory coding, an introduction to functional programming, and the development
         of dynamic-link-libraries. The OpenCV library is used as an example to show
         how to load an image and perform matrix manipulation among other things.
@@ -98,7 +98,7 @@
         and learn how to embed intelligent behavior in machines. The course will cover
         fundamental aspects of artificial intelligence in a broad and general fashion,
         with a focus on problem-solving, knowledge and reasoning using first-order logic,
-        planning, uncertain and probabilistic reasoning, learning, and robotics.\\By
+        planning, uncertain and probabilistic reasoning, learning, and robotics.<br/>By
         studying this course, students will gain a solid understanding of the fundamental
         principles and techniques of artificial intelligence. They will learn how to
         apply these techniques to solve complex problems and develop intelligent systems.
@@ -113,27 +113,27 @@
       description:
         This course focuses on developing the necessary skills for effective
         oral and written presentations in the field of science. It covers a range of
-        topics related to communication and publication in scientific research.\\In
+        topics related to communication and publication in scientific research.<br/>In
         the first part of the course, students will study the principles of oral and
         written presentations. They will learn about the fundamentals of effective communication
         in scientific settings and techniques for delivering clear and engaging presentations.
         Students will also develop skills in structuring and organizing scientific information
-        to effectively convey their message.\\The course will then delve into the basic
+        to effectively convey their message.<br/>The course will then delve into the basic
         concepts of authenticity and plagiarism. Students will understand the importance
         of maintaining authenticity in scientific research and the ethical guidelines
         for avoiding plagiarism. They will learn best practices for citing and referencing
-        sources and the consequences of plagiarism in the scientific community.\\Next,
+        sources and the consequences of plagiarism in the scientific community.<br/>Next,
         the course will cover general concepts of technical publication and its structure.
         Students will become familiar with the components of a technical publication,
         including the title, abstract, keywords, introduction, main body, conclusions,
         references, and appendices. They will also explore the structure of different
         types of reports, such as lab reports, term papers, and thesis, and develop
-        skills in effectively structuring and organizing scientific reports.\\The final
+        skills in effectively structuring and organizing scientific reports.<br/>The final
         part of the course focuses on oral presentations. Students will learn the process
         of preparing and delivering effective oral presentations. They will understand
         the importance of visual aids, sets, and tools in enhancing presentations. Through
         practical exercises, students will develop techniques for engaging and captivating
-        an audience during oral presentations.\\By the end of this course, students
+        an audience during oral presentations.<br/>By the end of this course, students
         will have gained the necessary skills to communicate scientific information
         effectively through both oral and written means. They will have a solid understanding
         of the principles of scientific communication, including the importance of authenticity
@@ -149,13 +149,13 @@
         with the development of algorithms and models that enable computers to learn
         from data and make predictions or decisions without being explicitly programmed.
         This comprehensive course provides an introduction to the fundamental principles,
-        techniques, and applications of machine learning.\\Throughout the course, we
+        techniques, and applications of machine learning.<br/>Throughout the course, we
         will cover the main approaches in machine learning and discuss the basic principles
         and techniques used in this field. We will explore topics such as supervised
         learning (including generative and discriminative learning, parametric and non-parametric
         learning, and neural networks), unsupervised learning (including clustering,
         dimensionality reduction, and kernel methods), and learning theory (including
-        bias/variance tradeoffs and practical advice).\\By the end of the course, students
+        bias/variance tradeoffs and practical advice).<br/>By the end of the course, students
         will have a solid understanding of modern machine learning and will be equipped
         with the necessary skills to apply machine learning techniques to real-world
         challenges.
@@ -429,11 +429,11 @@
       name: Computer Networks Lab
       credits: 1
       description:
-        '- Network setting in windows and Linux \\- Virtual machine \\- Linux
-        firewall \\- Analysis some appellation protocols (WEB, DNS, ICMP) \\- Switching
-        basics [Basic configuring of switches] \\- VLAN Configuration \\- Routing Basics
-        [Basic configuring of routers] \\- Static routing in CISCO router \\- RIP Routing
-        \\- OSPF routing \\- VLAN Configuration \\- Case study (Design a network)'
+        "- Network setting in windows and Linux <br/>- Virtual machine <br/>- Linux
+        firewall <br/>- Analysis some appellation protocols (WEB, DNS, ICMP) <br/>- Switching
+        basics [Basic configuring of switches] <br/>- VLAN Configuration <br/>- Routing Basics
+        [Basic configuring of routers] <br/>- Static routing in CISCO router <br/>- RIP Routing
+        <br/>- OSPF routing <br/>- VLAN Configuration <br/>- Case study (Design a network)"
     - co_requisite:
         - Engineering Mathematics
       code: "1718204"
@@ -485,19 +485,19 @@
       name: Fundamentals of Cybersecurity
       credits: 3
       description:
-        '- Introduction: history of cryptography and introduction to security
+        "- Introduction: history of cryptography and introduction to security
         architecture, basic information security concepts and protection mechanisms,
-        Confidentiality, Integrity and Authenticity (CIA).\\- Mathematics: basic material
+        Confidentiality, Integrity and Authenticity (CIA).<br/>- Mathematics: basic material
         on information theory, Shannon criteria, Symmetric-key encryption, one-time-
         pad, complexity theory, number theory and background on functions, abstract
-        algebra, and finite fields.\\- Block Ciphers: DES (Data Encryption Standard),
+        algebra, and finite fields.<br/>- Block Ciphers: DES (Data Encryption Standard),
         AES (Advanced Encryption Standard), encryption modes, linear and differential
-        attacks on block ciphers.\\- Hash functions: Basic constructions, Unkeyed hash
-        functions (MDCs) Keyed hash functions (MACs), Data integrity and message authentication.\\-
-        Public-key cryptography: RSA, ElGamal.\\- Digital signatures: security of public-key
+        attacks on block ciphers.<br/>- Hash functions: Basic constructions, Unkeyed hash
+        functions (MDCs) Keyed hash functions (MACs), Data integrity and message authentication.<br/>-
+        Public-key cryptography: RSA, ElGamal.<br/>- Digital signatures: security of public-key
         cryptography, RSA encryption and digital signature, ElGamal digital signature,
-        DSS (Digital Signature Standard).\\- Key management: Protocols and mechanisms,
-        key establishment and key management, and certification.'
+        DSS (Digital Signature Standard).<br/>- Key management: Protocols and mechanisms,
+        key establishment and key management, and certification."
     - code: "1732401"
       name: Microprocessors Lab
       credits: 1
@@ -518,7 +518,7 @@
         number of connected devices and the need for organizations to optimize their
         use of IoT technology, this course aims to equip participants with the knowledge
         and skills to identify potential use cases and integrate IoT products into their
-        digital transformation plans.\\The course begins by introducing participants
+        digital transformation plans.<br/>The course begins by introducing participants
         to the basics of how IoT products work and their significance in the global
         technology landscape. Participants will explore a range of IoT use cases and
         examine their potential applications within their own organizations. Through
