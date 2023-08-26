@@ -7,9 +7,9 @@
       <div class="col-lg-12">
         <h4 class="resume-title"><em>{{section.type}}</em></h4>
         {% for course in section.courses %}
-        <div class="col-lg-12 resume-item" id="{{course.name}}">
+        <div class="col-lg-12 resume-item course" id="{{course.name}}">
           <h4><a href="#{{course.name}}">{{course.name}}</a></h4>
-          <h5>Code: {{course.code}}</h5>
+          <h5>Code: {{course.code}} -- Credits: {{course.credits}}</h5>
           <p><em>{{course.description}}</em></p>
           {% if course.co_requisite %}
           <p>
