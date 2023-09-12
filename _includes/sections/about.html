@@ -25,6 +25,15 @@
             <p>{{award.description}}</p>
         </div>
         {%endfor%}
+
+        <h3 class="resume-title">Tests</h3>
+        {% for test in site.data.tests %}
+        <div class="resume-item">
+            <h4>{{test.name}}</h4>
+            <h5>{{test.date}}</h5>
+            <p>{{test.desc}}</p>
+        </div>
+        {%endfor%}
     </div>
 
     <div class="col-lg-6">

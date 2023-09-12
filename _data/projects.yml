@@ -14,14 +14,14 @@
 
 - title: Deep Active Inference of Mountain Car Problem
   year: 2022
-  description: > 
+  description: >
     Python implementation of Mountain Car Problem using Deep Active Inference algorithm
     and Unity as an environment to learn about active inference algorithm.
   link: https://github.com/mgh5225/active-inference-mcp
 
 - title: Computer Vision Project
   year: 2022
-  description: > 
+  description: >
     Content-Aware Image Resizing using Seam carving, Scaling and
     Auto Crop.
 
