@@ -4,10 +4,11 @@ description: "Enthusiastic AI Engineer and Deep Learning Researcher"
 keywords: "Mohammad, Ghazanfari, CV"
 
 # Resume settings
-name:             "Mohammad Ghazanfari"
-email:            "mgh5225@gmail.com"
+name: "Mohammad Ghazanfari"
+email: "mgh5225@gmail.com"
 # logo:             "assets/img/logo.png"
 social_links:
-  github_url:            "https://github.com/mgh5225"
-  linkedin_url:          "https://www.linkedin.com/in/mohammad-ghazanfari"
-  researchgate_url:      "https://www.researchgate.net/profile/Seyed-Mohammad-Ghazanfari"
+  github_url: "https://github.com/mgh5225"
+  linkedin_url: "https://www.linkedin.com/in/mohammad-ghazanfari"
+  researchgate_url: "https://www.researchgate.net/profile/Seyed-Mohammad-Ghazanfari"
+  orcid_url: "https://orcid.org/0009-0005-8012-4592"
