@@ -2,20 +2,31 @@
   place: Isfahan University of Technology
   year: July 2022 -- Sep 2022
   location: Isfahan, Iran
-  description: >
-    At a deep learning-focused laboratory, I contributed to developing projects in various areas, such as NLP, GANs, and Facial Expression Recognition.
+  type: list
+  description:
+    - Facilitating infrastructure setup for students to effectively utilize AI-related packages (PyTorch, Tensorflow, Keras)
+    - Conduct thorough research on a diverse range of Deep Learning projects, including Generative Adversarial Networks (GANs), Natural Language Processing (NLP), and various classifiers such as Support Vector Machines (SVM), K-Nearest Neighbors (KNN), Decision Trees, and Convolutional Neural Networks (CNN)
+    - Designing assignments for prospective undergraduate students who want to join this lab
 
-
-- title: Freelance
+- title: Freelance Developer
   place: Dutycope
   year: Aug 2020 -- Jan 2021
   location: Isfahan, Iran
-  description: > 
-    As Full Stack Developer at Dutycope (a freelance website), I developed its API, implementing a server with Node.js, a frontend with Next.js, and integrating a file server with Google Drive.
+  type: list
+  description:
+    - Create a Restful API backend utilizing Node.js, Bind9, and Nginx
+    - Create visually appealing HTML templates that align with the UI/UX design created in Adobe XD
+    - Develop the frontend using Next.js for a seamless user experience
+    - Develop a secure file system server utilizing Google Drive for enhanced data protection
 
 - title: Teaching Assistant
   place: Isfahan University of Technology
-  year: Jan 2020 -- Jun 2020 
+  year: Jan 2020 -- Jun 2020
   location: Isfahan, Iran
-  description: > 
-    As an undergraduate TA for the <i><b>Advanced Programming</b></i> course, I designed engaging assignments and assisted students in code debugging, emphasizing creativity, collaboration, and real-world applications.
+  type: list
+  description:
+    - Assisted Dr. Mouzarani (lecturer) in delivering course material and fostering a positive learning environment in the Advanced Programming course for undergraduate students
+    - Design engaging assignments promoting creativity, collaboration, and practicality
+    - Conducted Q/A sessions to address students' queries
+    - Provided technical support by debugging students' codes
+    - Developed comprehensive tutorials to further aid students in grasping complex programming concepts

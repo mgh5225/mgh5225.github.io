@@ -1,5 +1,6 @@
 - title: Additive Pattern Database with ANN
   year: 2023
+  type: string
   description: >
     LibTorch (C++ Distributions of PyTorch) implementation of
     <i><b>Optimal Search with Neural Networks: Challenges and Approaches</i></b> paper.
@@ -7,6 +8,7 @@
 
 - title: Deep Active Inference of rubber-hand Illusion
   year: 2022
+  type: string
   description: >
     Python implementation of rubber-hand illusion using Deep Active Inference 
     to find out how an agent can have illusion.
@@ -14,6 +16,7 @@
 
 - title: Deep Active Inference of Mountain Car Problem
   year: 2022
+  type: string
   description: >
     Python implementation of Mountain Car Problem using Deep Active Inference algorithm
     and Unity as an environment to learn about active inference algorithm.
@@ -21,21 +24,25 @@
 
 - title: Computer Vision Project
   year: 2022
+  type: string
   description: >
     Content-Aware Image Resizing using Seam carving, Scaling and
     Auto Crop.
 
 - title: DSATUR Algorithm
   year: 2022
+  type: string
   description: Java implementation for DSATUR graph coloring algorithm.
   link: https://github.com/mgh5225/DSatur
 
 - title: Reinforcement Learning with Unity
   year: 2021
+  type: string
   description: Implemented different agents in Unity to get to know about Reinforcement Learning.
 
 - title: Fundraising Website on Ethereum Network
   year: 2020
+  type: string
   description: >
     I created a fundraising website like Kickstarter based on Ethereum
     Block Chain using Web3 and Solidity language.

@@ -6,7 +6,15 @@
             <h4>{{experience.title}}</h4>
             <h5>{{experience.year}}</h5>
             <p><em>{{experience.place}}</em> -- <em>{{experience.location}}</em></p>
+            {% if experience.type == "list" %}
+            <ul>
+                {% for desc in experience.description %}
+                <li>{{desc}}</li>
+                {% endfor %}
+            </ul>
+            {% else if experience.type == "string" %}
             <p>{{experience.description}}</p>
+            {% endif %}
         </div>
 
         {% endfor %}
@@ -18,7 +26,15 @@
         <div class="resume-item">
             <h4>{{project.title}}</h4>
             <h5>{{project.year}}</h5>
+            {% if project.type == "list" %}
+            <ul>
+                {% for desc in project.description %}
+                <li>{{desc}}</li>
+                {% endfor %}
+            </ul>
+            {% else if project.type == "string" %}
             <p>{{project.description}}</p>
+            {% endif %}
             {% if project.link %}
             <a href="{{project.link}}" target="_blank"><em>Related Link</em></a>
             {%endif%}
