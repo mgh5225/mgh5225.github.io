@@ -18,7 +18,7 @@
     - co_requisite:
         - Fundamentals of Computer Programming and Lab
       code: "1730217"
-      name: Discrete Mathematical Structures
+      name: Discrete Structures
       credits: 3
       description:
         "Logic and Reasoning, Propositional, Predicate, and Fuzzy Logic,
@@ -67,7 +67,7 @@
         binary search, binary search trees (BST), AVL trees, B-trees, and digital search.
       prerequisite:
         - Advanced Programming and Lab
-        - Discrete Mathematical Structures
+        - Discrete Structures
     - code: "1734325"
       name: Theory of Automata and Formal Languages
       credits: 3
@@ -215,7 +215,7 @@
         are many topics, including but not limited to Software Engineering, Hardware
         Engineering, Networking, Algorithm, Machine Learning, AI, Database, and Networking.
     - code: "1710204"
-      name: Electrical Safety Principles Workshop
+      name: Principles of Electrical Safety Workshop
       credits: 0
       description:
         Prevention of electric shock (health and work safety), conductors,
@@ -242,7 +242,7 @@
         - Physics II
         - Differential Equations
       code: "1732207"
-      name: Basics of Electrical and Electronic Circuits
+      name: Fundamentals of Electrical and Electronic Circuits
       credits: 3
       description:
         Circuit abstraction, Ideal and practical two-terminal elements, Kirchhoff's
@@ -267,7 +267,7 @@
     - co_requisite:
         - Digital Systems Design I
       code: "1732204"
-      name: Digital Systems Design I Lab
+      name: Digital Systems Design Lab I
       credits: 1
       description:
         This course covers various topics including logic gates, familiarization
@@ -317,7 +317,7 @@
         also be used for analysis to enable students to develop an awareness of the
         genre in that discipline.
       prerequisite:
-        - Technical English Language (General)
+        - General English (Technology and Engineering)
     - co_requisite:
         - Computer Architecture and Organization
       code: "1718449"
@@ -358,7 +358,7 @@
     - co_requisite:
         - Operating Systems I
       code: "1734304"
-      name: Operating Systems Lab
+      name: Operating System Lab
       credits: 1
       description:
         This course provides an introduction to the fundamental concepts
@@ -437,7 +437,7 @@
     - co_requisite:
         - Engineering Mathematics
       code: "1718204"
-      name: Signal and Systems Analysis
+      name: Signals and Systems Analysis
       credits: 3
       description:
         Primary definitions of systems and signal, various kinds of systems,
@@ -450,7 +450,7 @@
     - co_requisite:
         - Software Engineering I
       code: "1734307"
-      name: Software Engineering I Lab
+      name: Software Engineering Lab I
       credits: 1
       description:
         This lab is designed to accompany the Software Engineering I course
@@ -482,7 +482,7 @@
     - co_requisite:
         - Computer Networks
       code: "1730400"
-      name: Fundamentals of Cybersecurity
+      name: Fundamentals of Secure Computing
       credits: 3
       description:
         "- Introduction: history of cryptography and introduction to security
@@ -506,7 +506,7 @@
         Keyboard, Timers, ADC/DAC, PWM, and RS232. Familiarizing with the use of relay,
         DC motors, and Dot matrix. And also an interesting tutorial on codevision programming.
       prerequisite:
-        - Digital Systems Design I Lab
+        - Digital Systems Design Lab I
         - Microprocessors
     - code: "1730430"
       name: Fundamentals of Internet of Things
@@ -629,7 +629,7 @@
     - co_requisite:
         - Physics II
       code: "2010126"
-      name: Physics Lab - Electricity
+      name: Physics of Electricity Lab
       credits: 1
       description: Testing Electric Circuits subjects practically.
     - code: "1912291"
