@@ -46,3 +46,10 @@
   description: >
     I created a fundraising website like Kickstarter based on Ethereum
     Block Chain using Web3 and Solidity language.
+
+- title: Advanced Programming Project
+  year: 2019
+  type: string
+  description: >
+    As our final project in the Advanced Programming course, we implemented a graphical application for real estate managers to manage their rental and sales lists. Users could also buy or rent houses with this application.
+  link: https://github.com/mgh5225/AP_Project
