@@ -54,7 +54,7 @@
       prerequisite:
         - Fundamentals of Computer Programming and Lab
     - code: "1734212"
-      name: Data Structure
+      name: Data Structures
       credits: 3
       description:
         The analysis involves evaluating the efficiency of the algorithm
@@ -76,7 +76,7 @@
         and context free grammars, linear bounded Automata and context sensitive grammars,
         Turing machines and unrestricted grammars, relations between machines and grammars.
       prerequisite:
-        - Data Structure
+        - Data Structures
     - code: "1734425"
       name: Algorithm Design
       credits: 3
@@ -89,7 +89,7 @@
         Programming, Greedy, Backtracking, and Branch and Bound are introduced using
         basic examples including basic graph problems.
       prerequisite:
-        - Data Structure
+        - Data Structures
     - code: "1734420"
       name: Artificial Intelligence
       credits: 3
@@ -105,10 +105,10 @@
         The course will provide a strong foundation for further studies or careers in
         the field of artificial intelligence.
       prerequisite:
-        - Data Structure
+        - Data Structures
         - Algorithm Design
     - code: "1740312"
-      name: Science Communication Skill
+      name: Science Communication Skills
       credits: 2
       description:
         This course focuses on developing the necessary skills for effective
@@ -354,7 +354,7 @@
         text-only problem using a commercially available DBMS such as Microsoft SQL
         Server or Oracle.
       prerequisite:
-        - Data Structure
+        - Data Structures
     - co_requisite:
         - Operating Systems I
       code: "1734304"
@@ -397,7 +397,7 @@
         allocation, virtual memory concepts, paging and segmentation, address mapping,
         virtual storage management, and page replacement strategies.
       prerequisite:
-        - Data Structure
+        - Data Structures
         - Computer Architecture and Organization
     - co_requisite:
         - Database I
@@ -650,7 +650,7 @@
   type: Basic Courses
 - courses:
     - co_requisite:
-        - Science Communication Skill
+        - Science Communication Skills
       code: "1740350"
       name: Project I
       credits: 3
