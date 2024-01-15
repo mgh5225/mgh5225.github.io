@@ -1,3 +1,9 @@
+- title: Pixel Hackenbush
+  year: 2024
+  type: string
+  description: >
+    A simple yet engaging implementation of the Hackenbush game, built using the Flutter framework and the Flame game engine.
+  link: https://github.com/mgh5225/pixel_hackenbush
 - title: Additive Pattern Database with ANN
   year: 2023
   type: string
